@@ -122,6 +122,8 @@ export async function getBookedDatesByCabinId(cabinId) {
     })
     .flat();
 
+    //await new Promise((res) => setTimeout(res, 5000));
+
   return bookedDates;
 }
 
